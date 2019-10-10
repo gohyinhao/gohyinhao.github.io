@@ -27,7 +27,3 @@ a:hover {
 a:active {
     color: white;
 }
-
-.ui.vertical.stripe {
-    padding: 8em 0em;
-}

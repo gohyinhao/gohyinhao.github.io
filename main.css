@@ -1,0 +1,33 @@
+.masthead h1.ui.header {
+    margin-top: 6rem;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.masthead {
+    min-height: 350px;
+}
+
+.ui.menu {
+    margin-top: 0;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}

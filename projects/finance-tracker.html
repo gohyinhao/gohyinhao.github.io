@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Goh Yin Hao</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="../stylesheets/projects.css">
+</head>
+<body>
+    <div class="ui inverted masthead vertical segment" id="finance-tracker"></div>
+    <div class="ui three item menu">
+        <a href="/index.html" class="item">About</a>
+        <a href="/education.html" class="item">Education</a>
+        <a href="/projects.html" class="active item">Projects</a>
+    </div>
+
+    <div class="ui container">
+        <div class="ui grid title">
+            <div class="two wide column">
+                <a href="../projects.html" class="ui icon basic fluid button"><i class="arrow left icon"></i></a>
+            </div>
+            <div class="three wide column"></div>
+            <div class="six wide column">
+                <h1 class="ui center aligned header">Personal Finance Tracker</h1>
+            </div>
+            <div class="five wide column">
+                <div class="ui labels title">
+                    <a href="https://github.com/gohyinhao/main" target="_blank" class="ui label"><i class="github icon"></i> View Code</a>
+                    <a href="https://github.com/gohyinhao/main/archive/v1.3.zip" class="ui label"><i class="download icon"></i> Download Executable</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui grid">
+            <div class="four wide column">
+                <div class="ui vertical fluid tabular menu">
+                    <a class="active item" id="description-tab">Description</a>
+                    <a class="item" id="tools-tab">Tools</a>
+                    <a class="item" id="role-tab">My Role</a>
+                </div>
+            </div>
+            <div class="twelve wide column">
+                <div class="ui active tab segment box" id="description-segment">
+                    <p>The Personal Finance Tracker is a finance tracking desktop application to help you effortlessly manage your finances. It has a GUI but most of the user interactions happen using a CLI (Command Line Interface).</p>
+
+                    <p>The application was created as part of CS2103 - Software Engineering. It is no longer being updated.</p>
+
+                    <p><a href="https://github.com/gohyinhao/main/blob/master/docs/UserGuide.adoc" target="_blank">User Guide</a></p>
+
+                    <p><a href="https://github.com/gohyinhao/main/blob/master/docs/DeveloperGuide.adoc" target="_blank">Developer Guide</a></p>
+
+                    <h5 class="ui header">Features</h5>
+                    <ul class="ui list">
+                        <li>Expense tracking</li>
+                        <li>Tracking of debts/bills</li>
+                        <li>Budget Creation within specific time frame (days, weeks, months, etc)</li>
+                        <li>Statistics to view your spending habits</li>
+                    </ul>
+
+                    <p>The application is adapted from <a href="https://github.com/se-edu/addressbook-level4" target="_blank">AddressBook-Level4 project</a> created by <a href="https://github.com/se-edu/" target="_blank">SE-EDU initiative</a>.</p>
+                </div>
+                <div class="ui tab segment box" id="tools-segment">
+                    <h5 class="ui header">UI</h5>
+                    <div class="ui teal labels">
+                        <div class="ui label">JavaFX</div>
+                        <div class="ui label">Scene Builder</div>
+                    </div>
+
+                    <h5 class="ui header">Backend</h5>
+                    <div class="ui teal labels">
+                        <div class="ui label">Java</div>
+                    </div>
+
+                    <h5 class="ui header">Version Control</h5>
+                    <div class="ui teal labels">
+                        <div class="ui label">Git</div>
+                    </div>
+                </div>
+                <div class="ui tab segment box" id="role-segment">
+                    <p>The application was created by a group of 5 students from NUS - <a href="https://github.com/gohyinhao/main/blob/master/docs/AboutUs.adoc" target="_blank">about the team</a>.</p>
+
+                    <h5 class="ui header">Roles and Responsibilities</h5>
+                    <ul class="ui list">
+                        <li>James Pang - UI, list view of expenses, budgets, recurring expenses</li>
+                        <li>Johnson Ho - Implementation of recurring expenses</li>
+                        <li>Goh Yin Hao - Implmentation of debts</li>
+                        <li>Lim Jiahui - Implementation of budgets</li>
+                        <li>Teoh Zhi Hui - Implementation of statistics</li>
+                    </ul>
+
+                    <p>This <a href="https://github.com/gohyinhao/main/blob/master/docs/team/gohyinhao.adoc" target="_blank">document</a> lists my contributions to the project.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/individualProjectTabs.js"></script>
+</body>
+</html>

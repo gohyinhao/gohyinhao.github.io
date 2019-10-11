@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Goh Yin Hao</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="../stylesheets/projects.css">
+</head>
+<body>
+    <div class="ui inverted masthead vertical segment"></div>
+    <div class="ui three item menu">
+        <a href="/index.html" class="item">About</a>
+        <a href="/education.html" class="item">Education</a>
+        <a href="/projects.html" class="active item">Projects</a>
+    </div>
+
+    <div class="ui container">
+        <div class="ui grid title">
+            <div class="two wide column">
+                <a href="../projects.html" class="ui icon basic fluid button"><i class="arrow left icon"></i></a>
+            </div>
+            <div class="three wide column"></div>
+            <div class="six wide column">
+                <h1 class="ui center aligned header">AI Poker Agent</h1>
+            </div>
+            <div class="five wide column">
+                <div class="ui labels title">
+                    <a href="https://github.com/gohyinhao/mypoker" target="_blank" class="ui label"><i class="github icon"></i> View Code</a>
+                    <a href="/docs/CS3243_Report.pdf" target="_blank" class="ui label"><i class="download icon"></i> View Report</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui grid">
+            <div class="four wide column">
+                <div class="ui vertical fluid tabular menu">
+                    <a class="active item" id="description-tab">Description</a>
+                    <a class="item" id="tools-tab">Tools</a>
+                    <a class="item" id="role-tab">My Role</a>
+                </div>
+            </div>
+            <div class="twelve wide column">
+                <div class="ui active tab segment box" id="description-segment">
+                    <p>The AI Poker Agent is an AI that aims to maximize its evaluation function - which in this case refers to the winnings in a game of poker. The agent utilizes a depth-limited minimax search algorithm for tree generation and search. In order to speed up the computation time for each turn, techniques such as bucketing and alpha-beta pruning are employed.</p>
+
+                    <p>The agent makes decisions based on a weighted evaluation function. These weights are obtained using a variation of local search, pitting variations of our agents against each other, until a maxima is attained, either local or global. A test is then run to check if it is a local maxima. If it is, then the weights are re-initialized and re-trained. The process repeats itself until the global maxima is obtained.</p>
+
+                    <p>The application was created as part of CS3243 - Introduction to Artificial Intelligence. It is no longer being updated.</p>
+
+                    <p>The application is adapted from <a href="https://github.com/changhongyan123/mypoker" target="_blank">this template</a> and the game of poker is run using <a href="https://ishikota.github.io/PyPokerEngine/" target="_blank">PyPokerEngine</a>.</p>
+                </div>
+                <div class="ui tab segment box" id="tools-segment">
+                    <h5 class="ui header">Agent Creation and Training</h5>
+                    <div class="ui teal labels">
+                        <div class="ui label">Python</div>
+                    </div>
+
+                    <h5 class="ui header">Version Control</h5>
+                    <div class="ui teal labels">
+                        <div class="ui label">Git</div>
+                    </div>
+                </div>
+                <div class="ui tab segment box" id="role-segment">
+                    <p>The application was created by a group of 4 students from NUS.</p>
+
+                    <h5 class="ui header">Roles and Responsibilities</h5>
+                    <ul class="ui list">
+                        <li>Goh Yin Hao - Training of Agent</li>
+                        <li>Lim Ming En - Evaluation Function</li>
+                        <li>Neo Si Hao, Rebecca Tan - Implementation of Search Tree</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/individualProjectTabs.js"></script>
+</body>
+</html>

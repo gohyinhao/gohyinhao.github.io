@@ -23,12 +23,12 @@
             </div>
             <div class="three wide column"></div>
             <div class="six wide column">
-                <h1 class="ui center aligned header">AI Poker Agent</h1>
+                <h1 class="ui center aligned header">Stock Price Prediction</h1>
             </div>
             <div class="five wide column">
                 <div class="ui labels title">
-                    <a href="https://github.com/gohyinhao/mypoker" target="_blank" class="ui label"><i class="github icon"></i> View Code</a>
-                    <a href="/docs/CS3243_Report.pdf" target="_blank" class="ui label"><i class="download icon"></i> View Report</a>
+                    <a href="https://github.com/gohyinhao/stock-price-prediction" target="_blank" class="ui label"><i class="github icon"></i> View Code</a>
+                    <a href="/docs/CS3244_Report.pdf" target="_blank" class="ui label"><i class="download icon"></i> View Report</a>
                 </div>
             </div>
         </div>
@@ -43,18 +43,28 @@
             </div>
             <div class="twelve wide column">
                 <div class="ui active tab segment box" id="description-segment">
-                    <p>The AI Poker Agent is an AI that aims to maximize its evaluation function - which in this case refers to the winnings in a game of poker. The agent utilizes a depth-limited minimax search algorithm for tree generation and search. In order to speed up the computation time for each turn, techniques such as bucketing and alpha-beta pruning are employed.</p>
+                    <p>An AI agent was created and trained to predict stock prices. In our implementation, we used gold prices from the World Gold Council (WGC) which consisted of 10,510 data points. The agent uses neural networks for machine learning in order to give price forecasts of gold over various periods of time - 1-day, 7-day, 30-day, etc.</p>
 
-                    <p>The agent makes decisions based on a weighted evaluation function. These weights are obtained using a variation of local search, pitting variations of our agents against each other, until a maxima is attained, either local or global. A test is then run to check if it is a local maxima. If it is, then the weights are re-initialized and re-trained. The process repeats itself until the global maxima is obtained.</p>
+                    <p>The agent was created as part of CS3244 - Machine Learning. It is no longer being updated.</p>
 
-                    <p>The agent was created as part of CS3243 - Introduction to Artificial Intelligence. It is no longer being updated.</p>
+                    <h5 class="ui header">Neural Network Optimization</h5>
+                    <ul class="ui list">
+                        <li>Model - Multilayer Perceptron Model (MLP), Long Short-Term Memory Model (LSTM)</li>
+                        <li>Activation Function - Tanh, Sigmoid, Rectified Linear Unit (ReLU), Leaky ReLU</li>
+                        <li>Optimizer - Stochastic Gradient Descent (SGD), Adaptive Moment Estimation (ADAM)</li>
+                    </ul>
 
-                    <p>The application is adapted from <a href="https://github.com/changhongyan123/mypoker" target="_blank">this template</a> and the game of poker is run using <a href="https://ishikota.github.io/PyPokerEngine/" target="_blank">PyPokerEngine</a>.</p>
+                    <p>The agent is adapted from <a href="https://github.com/VivekPa/IntroNeuralNetworks" target="_blank">this template</a>.</p>
                 </div>
                 <div class="ui tab segment box" id="tools-segment">
-                    <h5 class="ui header">Agent Creation and Training</h5>
+                    <h5 class="ui header">Agent Creation</h5>
                     <div class="ui teal labels">
                         <div class="ui label">Python</div>
+                    </div>
+
+                    <h5 class="ui header">Machine Learning</h5>
+                    <div class="ui teal labels">
+                        <div class="ui label">TensorFlow</div>
                     </div>
 
                     <h5 class="ui header">Version Control</h5>
@@ -63,13 +73,12 @@
                     </div>
                 </div>
                 <div class="ui tab segment box" id="role-segment">
-                    <p>The agent was created by a group of 4 students from NUS.</p>
+                    <p>The group consisted of 6 students from NUS.</p>
 
                     <h5 class="ui header">Roles and Responsibilities</h5>
                     <ul class="ui list">
-                        <li>Goh Yin Hao - Training of Agent</li>
-                        <li>Lim Ming En - Evaluation Function</li>
-                        <li>Neo Si Hao, Rebecca Tan - Implementation of Search Tree</li>
+                        <li>Goh Yin Hao - Processing of data, creation and training of Agent</li>
+                        <li>The rest - miscellaneous</li>
                     </ul>
                 </div>
             </div>

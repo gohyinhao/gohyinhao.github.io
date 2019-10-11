@@ -12,18 +12,18 @@
     margin-top: 0;
 }
 
-a:link {
+.masthead a:link {
     color: white;
 }
 
-a:visited {
+.masthead a:visited {
     color: white;
 }
 
-a:hover {
+.masthead a:hover {
     color: white;
 }
 
-a:active {
+.masthead a:active {
     color: white;
 }

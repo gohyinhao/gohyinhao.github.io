@@ -1,0 +1,28 @@
+.ui.tab.segment.box {
+    margin-top: 0;
+    min-height: 150px;
+}
+
+.ui.menu {
+    margin-top: 0;
+}
+
+.ui.grid.title .column {
+    padding-bottom: 0;
+}
+
+.ui.labels.title .ui.label {
+    float: right;
+    margin: 0.5em;
+}
+
+.ui.inverted.masthead.segment {
+    min-height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#portfolio {
+    background-image: url(../images/personal-projects/portfolio-site.png);
+}

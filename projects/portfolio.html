@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Goh Yin Hao</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="../stylesheets/projects.css">
+</head>
+<body>
+    <div class="ui inverted masthead vertical segment" id="portfolio"></div>
+    <div class="ui three item menu">
+        <a href="/index.html" class="item">About</a>
+        <a href="/education.html" class="item">Education</a>
+        <a class="active item">Projects</a>
+    </div>
+
+    <div class="ui container">
+        <div class="ui grid title">
+            <div class="two wide column">
+                <a href="../projects.html" class="ui icon basic fluid button"><i class="arrow left icon"></i></a>
+            </div>
+            <div class="three wide column"></div>
+            <div class="six wide column">
+                <h1 class="ui center aligned header">Personal Portfolio Site</h1>
+            </div>
+            <div class="five wide column">
+                <div class="ui labels title">
+                    <a href="https://github.com/gohyinhao/gohyinhao.github.io" target="_blank" class="ui label"><i class="github icon"></i> View Code</a>
+                    <a href="https://gohyinhao.github.io/" target="_blank" class="ui label"><i class="location arrow icon"></i> View Site</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui grid">
+            <div class="four wide column">
+                <div class="ui vertical fluid tabular menu">
+                    <a class="active item" id="description-tab">Description</a>
+                    <a class="item" id="tools-tab">Tools</a>
+                    <a class="item" id="role-tab">My Role</a>
+                </div>
+            </div>
+            <div class="twelve wide column">
+                <div class="ui active tab segment box" id="description-segment">
+                    <p>The site was created to showcase the list of projects that I have done thus far.</p>
+                </div>
+                <div class="ui tab segment box" id="tools-segment">
+                    <h5 class="ui header">Frontend</h5>
+                    <div class="ui teal labels">
+                        <div class="ui label">HTML</div>
+                        <div class="ui label">CSS</div>
+                        <div class="ui label">JavaScript</div>
+                        <div class="ui label">Semantic-UI</div>
+                    </div>
+                    <h5 class="ui header">Version Control</h5>
+                    <div class="ui teal labels">
+                        <div class="ui label">Git</div>
+                    </div>
+                </div>
+                <div class="ui tab segment box" id="role-segment">
+                    <p>The site was created solely by myself, from design to implementation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/individualProjectTabs.js"></script>
+</body>
+</html>
